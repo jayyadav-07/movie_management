@@ -12,3 +12,5 @@ app.get('/',(req,res)=>{
 app.listen(port,()=>{
     console.log(`server has started at http://localhost:${port}`);
 })
+
+console.log("called");
